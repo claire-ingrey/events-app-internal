@@ -19,5 +19,7 @@ INSERT INTO events (title, description, location) VALUES ('Pet Show', 'Super-fun
 
 INSERT INTO events (title,  description, location) VALUES ('Company Picnic', 'Come for free food and drinks.', 'At the lake');
 
+INSERT INTO events (title,  description, location) VALUES ('Happy Hour', 'Come for free drinks.', 'At the bar');
+
 
 SELECT * FROM events;
