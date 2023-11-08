@@ -1,6 +1,7 @@
 // Going to connect to MySQL database
 const mariadb = require('mariadb');
 
+// Environment variables 
 const HOST = process.env.DBHOST ? process.env.DBHOST : "localhost";
 const USER = process.env.DBUSER ? process.env.DBUSER : "events_user";
 const PASSWORD = process.env.DBPASSWORD ? process.env.DBPASSWORD : "letmein!";
